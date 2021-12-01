@@ -76,6 +76,8 @@ nav ul li {
     margin: auto;
     border-color: black;
     border-style: solid;
+    z-index: 99;
+    color: white;
 }
 
 #header {
@@ -89,6 +91,7 @@ nav ul li {
     height: 100%;
     width: 100%;
     object-fit: cover;
+    z-index: 0;
 }
 
 
