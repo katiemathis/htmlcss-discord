@@ -1,9 +1,13 @@
+/* general rules */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+/* nav menu rules */
 
 .menu-container {
     position: relative;
@@ -42,6 +46,11 @@ nav ul li {
     margin: auto;
 }
 
+.normal-link, #menu-button {
+    text-decoration: none;
+    color: white;
+}
+
 .menu-container::after {
     content: "";
     display: table;
@@ -49,12 +58,7 @@ nav ul li {
 
 }
 
-
-
-.normal-link, #menu-button {
-    text-decoration: none;
-    color: white;
-}
+/* begin main rules */
 
 .jumbotron {
     height: 400px;
@@ -99,6 +103,7 @@ nav ul li {
 #third {
     background-color: seagreen;
 }
+/* closer rules */
 
 .closer {
     height: 600px;
@@ -113,6 +118,8 @@ nav ul li {
     border-color: black;
     border-style: solid;
 }
+
+
 
 footer {
     height: 300px;
