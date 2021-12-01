@@ -4,9 +4,15 @@
     box-sizing: border-box;
 }
 
+#menu-container {
+    height: 70px;
+    width: 100%;
+    background-color: cornflowerblue;
+    color: white;
+}
+
 nav ul li {
     list-style-type: none;
-    text-decoration: none;
     display: inline-block;
 }
 
@@ -17,6 +23,60 @@ nav ul li {
 
 #menu-container .menu #main-menu #logo {
     height: 20%;
+    vertical-align: middle;
+
+}
+
+.normal-link, #menu-button {
+    text-decoration: none;
+}
+
+.jumbotron {
+    height: 400px;
+    width: 100%;
+    background-color: cyan;
+}
+
+.jumbotron-content {
+    height: 100%;
+    width: 60%;
+    margin: auto;
+    border-color: black;
+    border-style: solid;
+}
+
+#header {
+    background-color: cyan;
+}
+
+#first {
+    background-color: rebeccapurple;
+}
+
+#second {
+    background-color: salmon;
+}
+
+#third {
+    background-color: seagreen;
+}
+
+.closer {
+    height: 600px;
+    width: 100%;
+    background-color: grey;
+}
+
+.closer-content {
+    height: 100%;
+    width: 60%;
+    margin: auto;
+    border-color: black;
+    border-style: solid;
+}
+
+footer {
+    height: 300px;
+    width: 100%;
     background-color: black;
-    margin: 
 }
