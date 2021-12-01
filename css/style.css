@@ -9,7 +9,7 @@
     position: relative;
     height: 70px;
     width: 100%;
-    background-color: #3163E0;
+    background-color: #255EE9;
 }
 
 #logo {
@@ -59,7 +59,6 @@ nav ul li {
 .jumbotron {
     height: 400px;
     width: 100%;
-    background-image:url(jumbo.png);
 }
 
 #jumbo-img {
@@ -77,8 +76,17 @@ nav ul li {
 
 #header {
     position: relative;
-    background-color: cyan;
 }
+
+#jumbo-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
 
 #first {
     background-color: rebeccapurple;
