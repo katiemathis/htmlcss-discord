@@ -10,3 +10,13 @@ nav ul li {
     display: inline-block;
 }
 
+#menu-container .menu #main-menu {
+    width: 80%;
+    margin: auto;
+}
+
+#menu-container .menu #main-menu #logo {
+    height: 20%;
+    background-color: black;
+    margin: 
+}
